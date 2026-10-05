@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="bgCream" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#f8f5f1" />
+    </radialGradient>
+    <linearGradient id="brownInk" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#874c2d" />
+      <stop offset="50%" stop-color="#6e3b20" />
+      <stop offset="100%" stop-color="#582d16" />
+    </linearGradient>
+  </defs>
+  <circle cx="256" cy="256" r="248" fill="url(#bgCream)" />
+  <path d="M 417 298 A 176 176 0 1 1 424 222" fill="none" stroke="url(#brownInk)" stroke-width="10" stroke-linecap="round" />
+  <path d="M 392 252 Q 429 242 424 214" fill="none" stroke="url(#brownInk)" stroke-width="9" stroke-linecap="round" />
+  <text x="252" y="264" text-anchor="middle" fill="url(#brownInk)" font-family="Georgia, serif" font-weight="800" font-size="84" letter-spacing="-1.5">kafela’s</text>
+  <path d="M 135 256 Q 154 294 182 282" fill="none" stroke="url(#brownInk)" stroke-width="9" stroke-linecap="round" />
+  <text x="306" y="318" text-anchor="middle" fill="url(#brownInk)" font-family="Georgia, serif" font-weight="500" font-size="52" letter-spacing="1.5">Agenda</text>
+</svg>

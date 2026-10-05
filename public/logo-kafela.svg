@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="bgCream" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#f8f5f1" />
+    </radialGradient>
+    <linearGradient id="brownInk" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#874c2d" />
+      <stop offset="50%" stop-color="#6e3b20" />
+      <stop offset="100%" stop-color="#582d16" />
+    </linearGradient>
+  </defs>
+
+  <!-- Latar Bulat Krem Bersih -->
+  <circle cx="256" cy="256" r="248" fill="url(#bgCream)" />
+
+  <!-- Lingkaran Brushstroke Kaligrafi Cokelat Khas kafela's Agenda -->
+  <path
+    d="M 417 298
+       A 176 176 0 1 1 424 222"
+    fill="none"
+    stroke="url(#brownInk)"
+    stroke-width="8.5"
+    stroke-linecap="round"
+  />
+  <path
+    d="M 412 310
+       A 171 171 0 1 1 428 232"
+    fill="none"
+    stroke="#5a2e17"
+    stroke-width="3.2"
+    stroke-linecap="round"
+    opacity="0.75"
+  />
+  <!-- Ekor sambungan dari huruf 's' ke lingkaran kanan -->
+  <path
+    d="M 392 252 Q 429 242 424 214"
+    fill="none"
+    stroke="url(#brownInk)"
+    stroke-width="8"
+    stroke-linecap="round"
+  />
+
+  <!-- Teks Utama: kafela's -->
+  <text
+    x="252"
+    y="264"
+    text-anchor="middle"
+    fill="url(#brownInk)"
+    font-family="Georgia, 'Playfair Display', 'Times New Roman', serif"
+    font-weight="800"
+    font-size="84"
+    letter-spacing="-1.5"
+  >kafela’s</text>
+
+  <!-- Ayunan ekor huruf k -->
+  <path
+    d="M 135 256 Q 154 294 182 282"
+    fill="none"
+    stroke="url(#brownInk)"
+    stroke-width="9"
+    stroke-linecap="round"
+  />
+
+  <!-- Sub-teks: Agenda -->
+  <text
+    x="306"
+    y="318"
+    text-anchor="middle"
+    fill="url(#brownInk)"
+    font-family="'Playfair Display', Georgia, 'Times New Roman', serif"
+    font-weight="500"
+    font-size="52"
+    letter-spacing="1.5"
+  >Agenda</text>
+</svg>
